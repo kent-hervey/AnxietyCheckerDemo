@@ -1,0 +1,1 @@
+Simple project to create object and return from boolean method
