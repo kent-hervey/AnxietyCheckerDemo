@@ -16,6 +16,10 @@ public class AnxietyChecker {
 		boolean answer = person.isAnxiou();
 		
 		System.out.println("Anxiety excess is:  " + answer);
+		PersonCreator.createPerson();
+		
+		
+		
 
 	}
 
