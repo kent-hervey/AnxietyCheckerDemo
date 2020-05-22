@@ -15,8 +15,13 @@ public class AnxietyChecker {
 		
 		boolean answer = person.isAnxiou();
 		
-		System.out.println("Anxiety excess is:  " + answer);
-		PersonCreator.createPerson();
+		System.out.println("Anxiety status of generic person is:  " + answer);
+		Person fatperson = PersonCreator.createPerson();
+		
+		System.out.println("Anxiety status of fatperson is:  " + answer);
+		
+		
+		//fatPerson has an instance variable saying whether anxious or not, then we can output/user as simulated with syso
 		
 		
 		
