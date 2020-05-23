@@ -28,14 +28,55 @@ public class Person {
 	public boolean isAnxiou() {
 		//If half or more of parameters are true, then return true
 		if(covid19Status) {
-			return true;	
+			trueCounter++;
 		}
-
+		
+		if(hasEnemies) {
+			trueCounter++;
+		}
+		
+		if(isFrail) {
+			trueCounter++;
+		}
+		
+		if(believesInChemtrails) {
+			trueCounter++;
+		}
+		
+		if(trueCounter>2) {
+			return true;
+		}
+		
 		return false;
 	}
 
-	public boolean isCovid19Status() {
-		return covid19Status;
+
+
+
+
+	public void setHasEnemies(boolean hasEnemies) {
+		this.hasEnemies = hasEnemies;
+	}
+
+
+	public void setFrail(boolean isFrail) {
+		this.isFrail = isFrail;
+	}
+
+	public boolean isBelievesInChemtrails() {
+		return believesInChemtrails;
+	}
+
+	public void setBelievesInChemtrails(boolean believesInChemtrails) {
+		this.believesInChemtrails = believesInChemtrails;
+	}
+
+	public int getTrueCounter() {
+		return trueCounter;
+	}
+
+	public void setTrueCounter(int trueCounter) {
+		this.trueCounter = trueCounter;
 	}
 
 	public void setCovid19Status(boolean covid19Status) {
