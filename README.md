@@ -6,5 +6,5 @@ Person is/are the persons who may or may not be anxious
 
 PersonCreator simulates a UI sending data about a person and creates that person object
 
-
+Main method/entry point is in class AnxietyChecker
 
