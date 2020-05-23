@@ -15,7 +15,7 @@ public class AnxietyChecker {
 		System.out.println("Anxiety status of standard is:  " + standardPerson.isAnxiou());
 		
 		
-		//fatPerson has an instance variable saying whether anxious or not, then we can output/user as simulated with syso
+		//standardPerson has an instance variable saying whether anxious or not, then we can output/user as simulated with syso
 		
 		
 		
