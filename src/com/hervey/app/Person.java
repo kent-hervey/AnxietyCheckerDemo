@@ -10,21 +10,12 @@ public class Person {
 	int trueCounter = 0;
 	
 	public Person() {
-		
 	}
 	
 	public Person(boolean hasCovid19) {
 		this.covid19Status = hasCovid19;
 	}
 	
-	public Person(boolean hasCOVID19, boolean hasEnemies, boolean isFrail, boolean belivesInChemtrails) {
-		//if this is the only constructor, then all persons must have these values
-		
-	}
-	
-	//this kind of uses decorator pattern
-
-
 	public boolean isAnxiou() {
 		//If half or more of parameters are true, then return true
 		if(covid19Status) {
