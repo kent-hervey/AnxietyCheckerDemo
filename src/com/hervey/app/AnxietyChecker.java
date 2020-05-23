@@ -1,4 +1,5 @@
 package com.hervey.app;
+//simulates class calling for UI to open up user entering data to determin anxiety of that person
 
 public class AnxietyChecker {
 
@@ -7,15 +8,17 @@ public class AnxietyChecker {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		
-		Person person =new Person();
+		Person standardPerson = PersonCreator.createPerson();
 		
-		person.setCovid19Status(true);
+		System.out.println("Anxiety status of standard is:  " + standardPerson.isAnxiou());
 		
-		boolean answer = person.isAnxiou();
 		
-		System.out.println("Anxiety excess is:  " + answer);
+		//standardPerson has an instance variable saying whether anxious or not, then we can output/user as simulated with syso
+		
+		
+		
 
 	}
 
