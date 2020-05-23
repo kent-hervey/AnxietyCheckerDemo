@@ -8,18 +8,11 @@ public class AnxietyChecker {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		
-		Person person =new Person();
+		Person standardPerson = PersonCreator.createPerson();
 		
-		person.setCovid19Status(true);
-		
-		boolean answer = person.isAnxiou();
-		
-		System.out.println("Anxiety status of generic person is:  " + answer);
-		Person fatperson = PersonCreator.createPerson();
-		
-		System.out.println("Anxiety status of fatperson is:  " + fatperson.isAnxiou());
+		System.out.println("Anxiety status of standard is:  " + standardPerson.isAnxiou());
 		
 		
 		//fatPerson has an instance variable saying whether anxious or not, then we can output/user as simulated with syso

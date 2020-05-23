@@ -1,6 +1,6 @@
 package com.hervey.app;
 
-import java.util.Set;
+import java.util.Random;
 
 public class PersonCreator {
 
@@ -13,8 +13,16 @@ public class PersonCreator {
 
 		hasCOVID19 =  true;
 		hasEnemies = true;
-		isFrail = false;
-		belivesInChemtrails = false;
+		isFrail = true;
+		belivesInChemtrails = true;
+		
+		Random randomNum = new Random();
+		
+		hasCOVID19 = randomNum.nextInt(2)==1 ? true : false;
+		hasEnemies = randomNum.nextInt(2)==1 ? true : false;
+		isFrail = randomNum.nextInt(2)==1 ? true : false;
+		belivesInChemtrails = randomNum.nextInt(2)==1 ? true : false;
+
 
 		Person person = new Person();
 		person.setCovid19Status(hasCOVID19);
