@@ -7,7 +7,7 @@ public class AnxietyChecker {
 
 		Person standardPerson = PersonCreator.createPerson();
 		//standardPerson has an instance variable saying whether anxious or not, then we can output/user as simulated with syso		
-		System.out.println("Anxiety status of standard is:  " + standardPerson.isAnxiou());
+		System.out.println("Anxiety status of standard person is:  " + standardPerson.isAnxiou());
 
 	}
 
